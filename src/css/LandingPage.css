@@ -1,4 +1,4 @@
-.blinking-cursor {
+/* .blinking-cursor {
     font-weight: 500;
     -webkit-animation: 1s blink step-end infinite;
     -moz-animation: 1s blink step-end infinite;
@@ -65,4 +65,4 @@
     50% {
         color: black;
     }
-}
+} */
