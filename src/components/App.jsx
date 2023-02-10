@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 
-import LandingPage from './LandingPage'
+import LandingPage from './LandingPage';
+import Test from './Test';
 
 
 const App = () =>{
@@ -9,7 +10,7 @@ const App = () =>{
             <BrowserRouter>
                 <Routes>
                     <Route path='/' exact element={<LandingPage/>} />
-                    <Route path='/signup' element={<LandingPage/>} />
+                    <Route path='/test' exact element={<Test />} />
                 </Routes>                    
             </BrowserRouter>
         </div>
