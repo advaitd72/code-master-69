@@ -19,7 +19,7 @@ const LandingPage = () => {
                         </span>
                     </div>
 
-                    <form className ="from"action= "https://interview-backend-f6mj.onrender.com/auth/google" methond="POST"> */}
+                    <form className ="from"action= "https://interview-backend-f6mj.onrender.com/auth/google" methond="POST">
                         <button
                             className='rounded p-2 btn btn-secondary'>
                             <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="#8FE3CF" className="bi bi-google mb-1" viewBox="0 0 16 16">
